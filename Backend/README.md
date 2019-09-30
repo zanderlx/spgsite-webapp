@@ -10,9 +10,9 @@ $ python3 -m venv env
 $ source env/bin/activate
 ```
 
-### Deactivate virtual environment
+### Install requirements
 ```
-(env) $ deactivate
+(env) $ pip install -r requirements.txt
 ```
 
 ### Set "debug = True" to reload local changes
@@ -24,4 +24,9 @@ app.run(debug=True)
 ### Run local instance of Flask app
 ```
 (env) $ python app.py
+```
+
+### Deactivate virtual environment
+```
+(env) $ deactivate
 ```
