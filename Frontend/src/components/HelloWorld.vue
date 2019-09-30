@@ -22,13 +22,14 @@ export default {
   },
   data() {
     return {
-      pingResponse: ""
+      pingResponse: "",
+      environment: "https://api.seriousandprogamers.com/v1"
     };
   },
   methods: {
     ping() {
       axios
-        .get("http://localhost:5000/v1/ping")
+        .get(this.environment + "/ping")
         .then(response => (this.pingResponse = response.data));
     }
   }
