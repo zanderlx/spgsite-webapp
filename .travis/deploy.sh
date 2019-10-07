@@ -10,6 +10,6 @@ ssh -i .travis/deploy_key lx_zander2@www.seriousandprogamers.com <<EOF
     cd spgsite-webapp/Frontend
     npm install
     npm run build
-    rm /web-app/Frontend/*
+    rm -r /web-app/Frontend/*
     rsync -r dist/* /web-app/Frontend/
 EOF
