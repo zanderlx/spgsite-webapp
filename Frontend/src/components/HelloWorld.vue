@@ -2,9 +2,8 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
+      To view the API documentation for seriousandprogamers.com visit
+      <a href="https://api.seriousandprogamers.com" target="_blank" rel="noopener">https://api.seriousandprogamers.com</a>.
     </p>
     <h3>Press the button to test the API</h3>
     <button v-on:click="ping()">Ping</button>
